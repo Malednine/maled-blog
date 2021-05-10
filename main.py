@@ -10,7 +10,7 @@ from flask_login import UserMixin, login_user, LoginManager, login_required, cur
 from forms import LoginForm, RegisterForm, CreatePostForm, CommentForm
 from flask_gravatar import Gravatar
 import os
-print(os.environ['SECRET_KEY'])
+#print(os.environ['SECRET_KEY'])
 
 
 app = Flask(__name__)
